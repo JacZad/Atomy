@@ -1,0 +1,92 @@
+environments:
+  development:
+    baseURL: 'http://localhost:1313'
+  production:
+    baseURL: 'https://twoja-domena.com'
+
+languageCode: 'pl-pl'
+title: 'Atomy dostępności'
+theme: 'PaperMod'
+
+params:
+  # Podstawowe ustawienia
+  author: "Jacek Zadrożny"
+  description: "Atomy wiedzy o dostępności. Zestaw sprawdzonych elementów wiedzy na temat dostępności do wykorzystania przez narzędzia automatyczne i sztuczną inteligencję."
+  
+  # Nawigacja
+  homeInfoParams:
+    Title: "Atomy Wiedzy o Dostępności"
+    Content: "Zbiór atomów wiedzy o dostępności, gotowych do wykorzystania w narzędziach automatycznych i systemach sztucznej inteligencji."
+  
+  socialIcons:
+    - name: github
+      url: "https://github.com/JacZad/Atomy"
+  
+  # Dostępność
+  showBreadCrumbs: false
+  showReadingTime: false
+  
+  # Wygląd i funkcjonalność
+  defaultTheme: auto # możliwe wartości: light, dark, auto
+  showToc: false # spis treści
+  ShowShareButtons: true # przyciski udostępniania
+  ShowPostNavLinks: true # linki do poprzedniego/następnego postu
+  ShowCodeCopyButtons: true # przyciski do kopiowania kodu
+  
+  # SEO i metadata
+  keywords: ["WCAG", "EN 301549", "dostępność cyfrowa", "dostępność architektoniczna", "dostępność informacyjno-komunikacyjna"]
+  images: ["/images/site-feature-image.jpg"]
+  
+  # Profil autora
+  profileMode:
+    enabled: false # true włącza tryb profilu na stronie głównej
+    title: "Jacek Zadrożny"
+    subtitle: "Ekspert dostępności"
+    imageUrl: "/images/profile.jpg"
+    imageTitle: "Moje zdjęcie"
+    buttons:
+      - name: Atomy
+        url: "/atomy"
+      - name: GitHub
+        url: "https://github.com/JacZad"
+
+  # Ustawienia wyszukiwarki
+  search:
+    enabled: true
+    placeholder: "Szukaj..."
+
+  # RSS
+  ShowRssButtonInSectionTermList: true
+
+  # Stopka
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+    contents: "© 2025 Jacek Zadrożny. Wszystkie prawa zastrzeżone."
+
+  label:
+    text: "Atomy"
+    icon: "/assets/images/atomy.png"
+
+menu:
+  main:
+    - identifier: "about"
+      name: "O projekcie"
+      url: "/about/"
+      weight: 1
+    - identifier: "atomy"
+      name: "Atomy"
+      url: "/atomy/"
+      weight: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+

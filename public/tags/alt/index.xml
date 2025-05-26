@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Alt on Atomy dostępności</title>
+    <link>//localhost:1313/tags/alt/</link>
+    <description>Recent content in Alt on Atomy dostępności</description>
+    <image>
+      <title>Atomy dostępności</title>
+      <url>//localhost:1313/images/site-feature-image.jpg</url>
+      <link>//localhost:1313/images/site-feature-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/alt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teksty alternatywne dla obrazów</title>
+      <link>//localhost:1313/atomy/alt-text/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/atomy/alt-text/</guid>
+      <description>&lt;h2 id=&#34;czym-jest-tekst-alternatywny&#34;&gt;Czym jest tekst alternatywny?&lt;/h2&gt;
+&lt;p&gt;Tekst alternatywny (alt text) to opis obrazu, który jest odczytywany przez czytniki ekranu&amp;hellip;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Teksty alternatywne dla obrazów</title>
+      <link>//localhost:1313/atomy/atomy/alt-text/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/atomy/atomy/alt-text/</guid>
+      <description>&lt;h2 id=&#34;czym-jest-tekst-alternatywny&#34;&gt;Czym jest tekst alternatywny?&lt;/h2&gt;
+&lt;p&gt;Tekst alternatywny (alt text) to opis obrazu, który jest odczytywany przez czytniki ekranu&amp;hellip;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>
