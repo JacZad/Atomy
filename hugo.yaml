@@ -2,7 +2,7 @@ environments:
   development:
     baseURL: 'http://localhost:1313'
   production:
-    baseURL: 'https://twoja-domena.com'
+    baseURL: 'https://atomya11y.netlify.app'
 
 languageCode: 'pl-pl'
 title: 'Atomy dostępności'
